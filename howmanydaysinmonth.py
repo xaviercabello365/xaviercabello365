@@ -21,7 +21,6 @@ dias_por_mes = {
     12: 31
 }
 
-
 if mes >= 1 and mes <= 12:
     numero_de_dias = dias_por_mes[mes]
     print(f"El mes {mes} tiene {numero_de_dias} días.")
